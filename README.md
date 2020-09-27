@@ -1,0 +1,4 @@
+--Overview--
+This invocable apex class takes a DateTime Object along with some optional user input and returns a new DateTime with the specified additions. This type of operation has always been a challenge for me whenever working with DateTime Objects in Flows. Simple operations, such as adding/subtracting a few days or weeks from a DateTime can be a nightmare to figure out with a formula. If you have also struggled with DateTime Objects in flow then hopefully this will make your life a little easier.
+
+Remember to use negative values if you want to return a DateTime from the past (-7 days for one week ago, etc.) and be aware that if you try to pass in too large a number, Flow builder will object. 
